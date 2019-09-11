@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2C06A72328882100A765D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06A62328882100A765D4 /* AppDelegate.swift */; };
+		EE2C06A92328882100A765D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06A82328882100A765D4 /* ViewController.swift */; };
+		EE2C06AC2328882100A765D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2C06AA2328882100A765D4 /* Main.storyboard */; };
+		EE2C06AE2328882100A765D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2C06AD2328882100A765D4 /* Assets.xcassets */; };
+		EE2C06B12328882100A765D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2C06AF2328882100A765D4 /* LaunchScreen.storyboard */; };
+		EE2C06BC2328882200A765D4 /* MeomopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06BB2328882200A765D4 /* MeomopadTests.swift */; };
+		EE2C06C72328882200A765D4 /* MeomopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C62328882200A765D4 /* MeomopadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2C06B82328882200A765D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2C069B2328882100A765D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2C06A22328882100A765D4;
+			remoteInfo = Meomopad;
+		};
+		EE2C06C32328882200A765D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2C069B2328882100A765D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2C06A22328882100A765D4;
+			remoteInfo = Meomopad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2C06A32328882100A765D4 /* Meomopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meomopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C06A62328882100A765D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE2C06A82328882100A765D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE2C06AB2328882100A765D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2C06AD2328882100A765D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2C06B02328882100A765D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE2C06B22328882100A765D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2C06B72328882200A765D4 /* MeomopadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeomopadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C06BB2328882200A765D4 /* MeomopadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeomopadTests.swift; sourceTree = "<group>"; };
+		EE2C06BD2328882200A765D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2C06C22328882200A765D4 /* MeomopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeomopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C06C62328882200A765D4 /* MeomopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeomopadUITests.swift; sourceTree = "<group>"; };
+		EE2C06C82328882200A765D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2C06A02328882100A765D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C06B42328882200A765D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C06BF2328882200A765D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2C069A2328882100A765D4 = {
+			isa = PBXGroup;
+			children = (
+				EE2C06A52328882100A765D4 /* Meomopad */,
+				EE2C06BA2328882200A765D4 /* MeomopadTests */,
+				EE2C06C52328882200A765D4 /* MeomopadUITests */,
+				EE2C06A42328882100A765D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2C06A42328882100A765D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C06A32328882100A765D4 /* Meomopad.app */,
+				EE2C06B72328882200A765D4 /* MeomopadTests.xctest */,
+				EE2C06C22328882200A765D4 /* MeomopadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2C06A52328882100A765D4 /* Meomopad */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C06A62328882100A765D4 /* AppDelegate.swift */,
+				EE2C06A82328882100A765D4 /* ViewController.swift */,
+				EE2C06AA2328882100A765D4 /* Main.storyboard */,
+				EE2C06AD2328882100A765D4 /* Assets.xcassets */,
+				EE2C06AF2328882100A765D4 /* LaunchScreen.storyboard */,
+				EE2C06B22328882100A765D4 /* Info.plist */,
+			);
+			path = Meomopad;
+			sourceTree = "<group>";
+		};
+		EE2C06BA2328882200A765D4 /* MeomopadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C06BB2328882200A765D4 /* MeomopadTests.swift */,
+				EE2C06BD2328882200A765D4 /* Info.plist */,
+			);
+			path = MeomopadTests;
+			sourceTree = "<group>";
+		};
+		EE2C06C52328882200A765D4 /* MeomopadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C06C62328882200A765D4 /* MeomopadUITests.swift */,
+				EE2C06C82328882200A765D4 /* Info.plist */,
+			);
+			path = MeomopadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2C06A22328882100A765D4 /* Meomopad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2C06CB2328882200A765D4 /* Build configuration list for PBXNativeTarget "Meomopad" */;
+			buildPhases = (
+				EE2C069F2328882100A765D4 /* Sources */,
+				EE2C06A02328882100A765D4 /* Frameworks */,
+				EE2C06A12328882100A765D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meomopad;
+			productName = Meomopad;
+			productReference = EE2C06A32328882100A765D4 /* Meomopad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2C06B62328882200A765D4 /* MeomopadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2C06CE2328882200A765D4 /* Build configuration list for PBXNativeTarget "MeomopadTests" */;
+			buildPhases = (
+				EE2C06B32328882200A765D4 /* Sources */,
+				EE2C06B42328882200A765D4 /* Frameworks */,
+				EE2C06B52328882200A765D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2C06B92328882200A765D4 /* PBXTargetDependency */,
+			);
+			name = MeomopadTests;
+			productName = MeomopadTests;
+			productReference = EE2C06B72328882200A765D4 /* MeomopadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2C06C12328882200A765D4 /* MeomopadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2C06D12328882200A765D4 /* Build configuration list for PBXNativeTarget "MeomopadUITests" */;
+			buildPhases = (
+				EE2C06BE2328882200A765D4 /* Sources */,
+				EE2C06BF2328882200A765D4 /* Frameworks */,
+				EE2C06C02328882200A765D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2C06C42328882200A765D4 /* PBXTargetDependency */,
+			);
+			name = MeomopadUITests;
+			productName = MeomopadUITests;
+			productReference = EE2C06C22328882200A765D4 /* MeomopadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2C069B2328882100A765D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "test company";
+				TargetAttributes = {
+					EE2C06A22328882100A765D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE2C06B62328882200A765D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE2C06A22328882100A765D4;
+					};
+					EE2C06C12328882200A765D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE2C06A22328882100A765D4;
+					};
+				};
+			};
+			buildConfigurationList = EE2C069E2328882100A765D4 /* Build configuration list for PBXProject "Meomopad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2C069A2328882100A765D4;
+			productRefGroup = EE2C06A42328882100A765D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2C06A22328882100A765D4 /* Meomopad */,
+				EE2C06B62328882200A765D4 /* MeomopadTests */,
+				EE2C06C12328882200A765D4 /* MeomopadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2C06A12328882100A765D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C06B12328882100A765D4 /* LaunchScreen.storyboard in Resources */,
+				EE2C06AE2328882100A765D4 /* Assets.xcassets in Resources */,
+				EE2C06AC2328882100A765D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C06B52328882200A765D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C06C02328882200A765D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2C069F2328882100A765D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C06A92328882100A765D4 /* ViewController.swift in Sources */,
+				EE2C06A72328882100A765D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C06B32328882200A765D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C06BC2328882200A765D4 /* MeomopadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C06BE2328882200A765D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C06C72328882200A765D4 /* MeomopadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2C06B92328882200A765D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2C06A22328882100A765D4 /* Meomopad */;
+			targetProxy = EE2C06B82328882200A765D4 /* PBXContainerItemProxy */;
+		};
+		EE2C06C42328882200A765D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2C06A22328882100A765D4 /* Meomopad */;
+			targetProxy = EE2C06C32328882200A765D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2C06AA2328882100A765D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2C06AB2328882100A765D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2C06AF2328882100A765D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2C06B02328882100A765D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2C06C92328882200A765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE2C06CA2328882200A765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2C06CC2328882200A765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meomopad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.company-com.test.company-com.test.company-com.test.company.Meomopad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2C06CD2328882200A765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meomopad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.company-com.test.company-com.test.company-com.test.company.Meomopad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE2C06CF2328882200A765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeomopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.company-com.test.company-com.test.company-com.test.company.MeomopadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meomopad.app/Meomopad";
+			};
+			name = Debug;
+		};
+		EE2C06D02328882200A765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeomopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.company-com.test.company-com.test.company-com.test.company.MeomopadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meomopad.app/Meomopad";
+			};
+			name = Release;
+		};
+		EE2C06D22328882200A765D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeomopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.company-com.test.company-com.test.company-com.test.company.MeomopadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meomopad;
+			};
+			name = Debug;
+		};
+		EE2C06D32328882200A765D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeomopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.company-com.test.company-com.test.company-com.test.company.MeomopadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meomopad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2C069E2328882100A765D4 /* Build configuration list for PBXProject "Meomopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C06C92328882200A765D4 /* Debug */,
+				EE2C06CA2328882200A765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2C06CB2328882200A765D4 /* Build configuration list for PBXNativeTarget "Meomopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C06CC2328882200A765D4 /* Debug */,
+				EE2C06CD2328882200A765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2C06CE2328882200A765D4 /* Build configuration list for PBXNativeTarget "MeomopadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C06CF2328882200A765D4 /* Debug */,
+				EE2C06D02328882200A765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2C06D12328882200A765D4 /* Build configuration list for PBXNativeTarget "MeomopadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C06D22328882200A765D4 /* Debug */,
+				EE2C06D32328882200A765D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2C069B2328882100A765D4 /* Project object */;
+}
