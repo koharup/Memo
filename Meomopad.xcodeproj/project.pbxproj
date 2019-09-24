@@ -14,6 +14,8 @@
 		EE2C06B12328882100A765D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2C06AF2328882100A765D4 /* LaunchScreen.storyboard */; };
 		EE2C06BC2328882200A765D4 /* MeomopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06BB2328882200A765D4 /* MeomopadTests.swift */; };
 		EE2C06C72328882200A765D4 /* MeomopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C62328882200A765D4 /* MeomopadUITests.swift */; };
+		EE2C06D52328888300A765D4 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06D42328888300A765D4 /* MemoViewController.swift */; };
+		EE2C06D723289BA100A765D4 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE2C06D623289BA100A765D4 /* haikei.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EE2C06C22328882200A765D4 /* MeomopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeomopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2C06C62328882200A765D4 /* MeomopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeomopadUITests.swift; sourceTree = "<group>"; };
 		EE2C06C82328882200A765D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2C06D42328888300A765D4 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		EE2C06D623289BA100A765D4 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				EE2C06A62328882100A765D4 /* AppDelegate.swift */,
+				EE2C06D623289BA100A765D4 /* haikei.jpg */,
 				EE2C06A82328882100A765D4 /* ViewController.swift */,
 				EE2C06AA2328882100A765D4 /* Main.storyboard */,
 				EE2C06AD2328882100A765D4 /* Assets.xcassets */,
 				EE2C06AF2328882100A765D4 /* LaunchScreen.storyboard */,
 				EE2C06B22328882100A765D4 /* Info.plist */,
+				EE2C06D42328888300A765D4 /* MemoViewController.swift */,
 			);
 			path = Meomopad;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2C06D723289BA100A765D4 /* haikei.jpg in Resources */,
 				EE2C06B12328882100A765D4 /* LaunchScreen.storyboard in Resources */,
 				EE2C06AE2328882100A765D4 /* Assets.xcassets in Resources */,
 				EE2C06AC2328882100A765D4 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			files = (
 				EE2C06A92328882100A765D4 /* ViewController.swift in Sources */,
 				EE2C06A72328882100A765D4 /* AppDelegate.swift in Sources */,
+				EE2C06D52328888300A765D4 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
